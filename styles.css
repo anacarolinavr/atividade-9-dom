@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.controles input,
+.controles select,
+.controles button {
+    padding: 10px;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.card button {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.highlight {
+    border: 3px solid #333333;
+    box-shadow: 0 0 10px #999999;
+}
+
+#product-details {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
